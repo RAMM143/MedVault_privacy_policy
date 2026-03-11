@@ -1,140 +1,128 @@
-# Privacy Policy
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Privacy Policy — MedVault</title>
+  <meta name="description" content="Privacy Policy for MedVault — Offline Pill Reminder & Medicine Tracker. Everything stored locally; no data collection by default." />
+  <style>
+    :root{
+      --bg:#ffffff; --text:#111827; --muted:#6b7280; --accent:#2F80ED;
+      --container: 900px;
+      font-family: Inter, ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+    }
+    body{background:var(--bg); color:var(--text); margin:0; padding:40px 16px; line-height:1.6;}
+    .wrap{max-width:var(--container); margin:0 auto;}
+    header{display:flex; align-items:center; gap:14px; margin-bottom:28px;}
+    header .logo{width:56px;height:56px;border-radius:10px;background:var(--accent);display:flex;align-items:center;justify-content:center;color:#fff;font-weight:700;font-size:20px;}
+    h1{margin:0;font-size:28px;}
+    p.lead{color:var(--muted); margin:8px 0 20px;}
+    h2{color:var(--accent); margin-top:30px; margin-bottom:8px;}
+    h3{margin:18px 0 8px; font-size:18px;}
+    ul{margin:8px 0 16px 20px;}
+    .muted{color:var(--muted);}
+    footer{margin-top:40px;border-top:1px solid #eef2ff;padding-top:18px;color:var(--muted); font-size:14px;}
+    a{color:var(--accent); text-decoration:none;}
+    .card{background:#fbfdff;border:1px solid #eef6ff;padding:16px;border-radius:8px;}
+    code{background:#f3f4f6;padding:2px 6px;border-radius:4px;font-family:monospace;}
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <div class="logo" aria-hidden="true">MV</div>
+      <div>
+        <h1>Privacy Policy</h1>
+        <p class="lead">MedVault — Offline Pill Reminder &amp; Medicine Tracker</p>
+        <div class="muted">Last Updated: <strong>March 2026</strong></div>
+      </div>
+    </header>
 
-**Last Updated:** March 2026
+    <section>
+      <p>Thank you for choosing <strong>MedVault</strong>. Your privacy is extremely important to us. This Privacy Policy explains how MedVault handles the information you enter and how we protect it.</p>
+    </section>
 
-Thank you for using **MedVault – Offline Pill Reminder & Medicine Tracker**.
+    <h2>1. Information We Collect</h2>
+    <p class="muted">MedVault is designed as a privacy-first offline application.</p>
+    <p>By default, the app <strong>does not collect, store, transmit, or share any personal data with external servers.</strong> All information you enter into the app is stored locally on your device only.</p>
+    <p>Examples of data you may store in the app include (but are not limited to):</p>
+    <ul>
+      <li>Medication names, dose instructions, and schedules</li>
+      <li>Medication history logs (taken/missed/skipped)</li>
+      <li>Allergies and emergency contact information</li>
+      <li>Profile data for patients you manage (name, date of birth, relation)</li>
+      <li>Photos or images you attach to medication or profiles</li>
+    </ul>
+    <p>None of this information leaves your device unless you explicitly export or share it.</p>
 
-Your privacy is extremely important to us. This Privacy Policy explains how the app handles your information.
+    <h2>2. No Internet Data Collection</h2>
+    <p>MedVault does not automatically send any information over the internet. We do not collect:</p>
+    <ul>
+      <li>Personal identifiers (name, email) unless you input them into the app</li>
+      <li>Health records to our servers</li>
+      <li>Location data, contacts, or device identifiers</li>
+      <li>Behavioral analytics or usage telemetry (default)</li>
+    </ul>
 
----
+    <h2>3. Local Data Storage</h2>
+    <p>All app data is stored locally on your device using Android storage mechanisms. This means:</p>
+    <ul>
+      <li>Your data remains under your control.</li>
+      <li>No cloud database stores your health information by default.</li>
+      <li>The developer does not have access to your data unless you explicitly export and share backup files.</li>
+    </ul>
 
-# 1. Information We Collect
+    <h2>4. Backup &amp; Export</h2>
+    <p>MedVault may provide options to create backups or export data. Key points:</p>
+    <ul>
+      <li>Backups are created only when you choose to export or back up your data.</li>
+      <li>Backups can be stored locally on your device or a storage location you select.</li>
+      <li>We recommend encrypting backup files with a passphrase when that option is available.</li>
+      <li>If you upload backups to cloud storage, that upload is initiated and controlled by you.</li>
+    </ul>
 
-MedVault is designed as a **privacy-first offline application**.
+    <h2>5. Permissions</h2>
+    <p>MedVault requests the minimum set of permissions required for core functionality. These may include:</p>
+    <ul>
+      <li><strong>Notifications:</strong> Required to deliver medication reminders and alerts.</li>
+      <li><strong>Storage access (optional):</strong> Only if you manually export or restore backup files via the device storage or SAF (Storage Access Framework).</li>
+    </ul>
+    <p>The app will explain why a permission is requested before it is asked for. You may deny optional permissions and the app will continue to function in local-only mode.</p>
 
-The app **does not collect, store, transmit, or share any personal data with external servers**.
+    <h2>6. Data Sharing</h2>
+    <p>We do <strong>not</strong> sell, rent, or share your personal health data with third parties. Any sharing of data (for example, exporting a CSV or sending a PDF) is initiated and controlled by you.</p>
 
-All information entered in the app is stored **locally on your device only**.
+    <h2>7. Children’s Privacy</h2>
+    <p>We do not knowingly collect or transmit personal information from children. Since MedVault operates offline, no child data is transmitted to the developer.</p>
 
-Examples of data you may store in the app include:
+    <h2>8. Security</h2>
+    <p>We take reasonable steps to protect the data stored on your device. Recommended user practices include:</p>
+    <ul>
+      <li>Use a screen lock (PIN, pattern, or biometrics)</li>
+      <li>Enable full-disk encryption on your device</li>
+      <li>Store backups in a secure location and use a passphrase for exported backups</li>
+    </ul>
+    <p><em>Note:</em> Because data is stored locally, if an attacker gains access to your unlocked device, they may be able to view app data.</p>
 
-* Medication names
-* Dosage information
-* Reminder schedules
-* Medical notes
-* Allergy information
-* Emergency contacts
-* Medication history logs
+    <h2>9. Third-Party Services</h2>
+    <p>MedVault does not integrate third-party advertising networks or analytics services by default. If any third-party integration is added in the future (for optional features such as cloud backup), it will be explicitly documented and configured as an opt-in feature.</p>
 
-This information **never leaves your device unless you manually export it**.
+    <h2>10. Changes to This Privacy Policy</h2>
+    <p>We may update this Privacy Policy occasionally. The "Last Updated" date at the top of this page will reflect the most recent change. Substantive changes will be communicated in-app where feasible.</p>
 
----
+    <h2>11. Contact</h2>
+    <p>If you have questions about this Privacy Policy or how your data is handled, please contact us:</p>
+    <div class="card">
+      <p><strong>Email:</strong> <a href="mailto:amadhanmohan777@gmail.com">amadhanmohan777@gmail.com</a></p>
+      <!-- Optional: replace the above email with your actual support email:
+           <p><strong>Email:</strong> <a href="mailto:amadhanmohan777@gmail.com">amadhanmohan777@gmail.com</a></p>
+      -->
+    </div>
 
-# 2. No Internet Data Collection
-
-The app does **not automatically send any information over the internet**.
-
-We do **not collect**:
-
-* Personal information
-* Health records
-* Location data
-* Device identifiers
-* Contacts
-* Analytics data
-
----
-
-# 3. Local Data Storage
-
-All app data is stored locally on your device using secure Android storage mechanisms.
-
-This means:
-
-* Your data remains under your control
-* No cloud database stores your health information
-* No third-party servers receive your data
-
----
-
-# 4. Backup and Export
-
-The app may allow you to create **local backup files** of your data.
-
-These backups are:
-
-* Created only when you choose to export
-* Stored locally on your device or chosen storage location
-* Fully controlled by you
-
-The developer does not have access to these files.
-
----
-
-# 5. Permissions Used
-
-The app may request limited permissions only for core functionality.
-
-Examples include:
-
-**Notifications**
-Used to send medication reminders.
-
-**Storage Access (Optional)**
-Used only if you choose to export or restore backup files.
-
-The app does not access any other personal device data.
-
----
-
-# 6. Data Sharing
-
-We **do not sell, rent, share, or transmit any personal data** to third parties.
-
-Your health information stays on your device.
-
----
-
-# 7. Children’s Privacy
-
-This app does not knowingly collect personal information from children.
-
-Because the app operates entirely offline, no data is transmitted to the developer.
-
----
-
-# 8. Security
-
-We take reasonable measures to protect your information.
-
-However, since data is stored locally on your device, users should protect their device with:
-
-* Screen locks
-* Device encryption
-* Secure backups
-
----
-
-# 9. Third-Party Services
-
-The app does **not integrate third-party advertising networks or analytics services**.
-
----
-
-# 10. Changes to This Privacy Policy
-
-We may update this Privacy Policy occasionally.
-
-Updates will be reflected by changing the **"Last Updated"** date.
-
----
-
-# 11. Contact
-
-If you have questions about this Privacy Policy, please contact:
-
-**Email:** [amadhanmohan777@gmail.com](mailto:amadhanmohan777@gmail.com)
-
----
-
-By using this app, you agree to the terms described in this Privacy Policy.
+    <footer>
+      <p>By using MedVault, you acknowledge and agree to the terms described in this Privacy Policy.</p>
+      <p class="muted">Last Updated: March 2026</p>
+    </footer>
+  </div>
+</body>
+</html>
